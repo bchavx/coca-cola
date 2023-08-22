@@ -49,15 +49,22 @@ width: 240px;
 transform: translateX(-100%);
 text-align: end;
 }
+
+.content-image{
+    height: 85vh;
+}
+
 footer{
     height: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding-right: 75px;
-}    
-.autoria{
+    padding-left: 75px;
     color: #ffffff;
-    padding: 70px;
+    font-weight: 100;
+}    
+
+footer div{
+    width: 64px;
 }
-                                                            
